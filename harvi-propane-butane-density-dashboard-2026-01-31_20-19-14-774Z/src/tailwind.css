@@ -1,0 +1,13 @@
+/* Import custom styles first - @import must come before all other rules */
+@import './custom.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+  DO NOT ADD CUSTOM STYLES HERE
+  This file should only contain Tailwind directives and the import of custom.css
+  All custom styles belong in custom.css
+  AI: Keep this file clean - only @tailwind directives and @import allowed
+*/
